@@ -1,2 +1,7 @@
-# komazawa-u.mobileconf
-Easy to setup komazawa wlan and email
+##駒澤大学一键生成iOS WiFi&Mail配置文件
+#缘由
+经常有学校的留学生在群里问怎么设置WiFi，之前搞过一个配置文件，不过总有人把自己用户名密码输入错了，所以做了这个升级版。
+#实现原理
+提交用户名及密码后经由YeStudy验证(有可能会被学校搞，不过看学校会不会把这个项目并入系统了)，验证通过则生成一个mobileconfig。
+#项目地址
+http://ming.moe/komazawa/
