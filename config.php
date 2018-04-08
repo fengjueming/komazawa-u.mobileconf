@@ -3,7 +3,7 @@ $username = $_GET["username"];
 $password = $_GET["password"];
 //Web Clip
 $koneco = '<html><body onload="document.forms[0].submit()"><form method="post" action="https://koneco.komazawa-u.ac.jp/portal"><input type="hidden" name="name" value="'.$username.'"><input type="hidden" name="pass" value="'.$password.'"><input type="hidden" name="form_id" value="user_login_block"></form></body></html>';
-$yestudy = '<html><body onload="document.forms[0].submit()"><form method="post" action="https://yestudy.komazawa-u.ac.jp/2017/login/index.php"><input type="hidden" name="username" value="'.$username.'"><input type="hidden" name="password" value="'.$password.'"></form></body></html>';
+$yestudy = '<html><body onload="document.forms[0].submit()"><form method="post" action="https://yestudy.komazawa-u.ac.jp/2018/login/index.php"><input type="hidden" name="username" value="'.$username.'"><input type="hidden" name="password" value="'.$password.'"></form></body></html>';
 //Main
     header('Content-type: application/x-apple-aspen-config; chatset=utf-8');
     header('Content-Disposition: attachment; filename="komazawa.mobileconfig"');
