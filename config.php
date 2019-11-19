@@ -14,48 +14,6 @@ $yestudy = '<html><body onload="document.forms[0].submit()"><form method="post" 
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadCertificateFileName</key>
-			<string>GlobalSign Root CA.cer</string>
-			<key>PayloadContent</key>
-			<data>
-			MIIDdTCCAl2gAwIBAgILBAAAAAABFUtaw5QwDQYJKoZIhvcNAQEF
-			BQAwVzELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24g
-			bnYtc2ExEDAOBgNVBAsTB1Jvb3QgQ0ExGzAZBgNVBAMTEkdsb2Jh
-			bFNpZ24gUm9vdCBDQTAeFw05ODA5MDExMjAwMDBaFw0yODAxMjgx
-			MjAwMDBaMFcxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxT
-			aWduIG52LXNhMRAwDgYDVQQLEwdSb290IENBMRswGQYDVQQDExJH
-			bG9iYWxTaWduIFJvb3QgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IB
-			DwAwggEKAoIBAQDaDuaZjc6j40+Kfvvxi4Mla+pIH/EqsLmVEQS9
-			8GPR4mdmzxzdzxtIK+6NiY6arymAZavpxy0Sy6scTHAHoT0KMM0V
-			jU/43dSMUBUc71DuxC73/OlS8pF94G3VNTCOXkNz8kHp1Wrjsok6
-			Vjk4bwY8iGlbKk3Fp1S4bInMm/k8yuX9ifUSPJJ4ltbcdG6TRGHR
-			jcdGsnUOhugZitVtbNV4FpWi6cgKOOvyJBNPc1STE4U6G7weNLWL
-			BYy5d4ux2x8gkasJU26Qzns3dLlwR5EiUWMWea6xrkEmCMgZK9FG
-			qkjWZCrXgzT/LCrBbBlDSgeF59N89iFo7+ryUp9/k5DPAgMBAAGj
-			QjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0G
-			A1UdDgQWBBRge2YaRQ2XyolQL30EzTSo//z9SzANBgkqhkiG9w0B
-			AQUFAAOCAQEA1nPnfE920I2/7LqivjTFKDK1fPxsnCwrvQmeU79r
-			XqoRSLblCKOzyj1hTdNGCbM+w6DjY1Ub8rrvrTnhQ7k4o+YviiY7
-			76BQVvnGCv04zcQLcFGUl5gE38NflNUVyRRBnMRddWQVDf9VMOyG
-			j/8N7yy5Y0b2qvzfvGn9LhJIZJrglfCm7ymPAbEVtQwdpf5pLGkk
-			eB6zpxxxYu7KyJesF12KwvhHhm4qxFYxldBniYUr+WymXUadDKqC
-			5JlR3XC321Y9YeRq4VzW9v493kHMB65jUr9TU/Qr6cf9tveCX4XS
-			QRjbgbMEHMUfpIBvFSDJ3gyICh3WZlXi/EjJKSZp4A==
-			</data>
-			<key>PayloadDescription</key>
-			<string>Adds a CA root certificate</string>
-			<key>PayloadDisplayName</key>
-			<string>GlobalSign Root CA</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.root.E3C795F8-91EE-41DF-8D9C-FFB62CCE59B8</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.root</string>
-			<key>PayloadUUID</key>
-			<string>E3C795F8-91EE-41DF-8D9C-FFB62CCE59B8</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>AutoJoin</key>
 			<true/>
 			<key>CaptiveBypass</key>
@@ -69,8 +27,10 @@ $yestudy = '<html><body onload="document.forms[0].submit()"><form method="post" 
 				<key>OneTimeUserPassword</key>
 				<false/>
 				<key>PayloadCertificateAnchorUUID</key>
+				<array/>
+				<key>TLSTrustedServerNames</key>
 				<array>
-					<string>E3C795F8-91EE-41DF-8D9C-FFB62CCE59B8</string>
+					<string>radius-guard1.int.komazawa-u.ac.jp</string>
 				</array>
 				<key>UserName</key>
 				<string>'.$username.'</string>
